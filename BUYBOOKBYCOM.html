@@ -1,0 +1,108 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+	
+		
+	<script type="text/javascript" src="javascripts/signupvalid.js"></script>
+		
+		
+		
+		<style type="text/css">
+			.signin
+			{
+				position: absolute;
+				height: 25%;
+				width: 25%; 
+				top: 50%;
+				right: 38%;
+				font-family: sans-serif;
+				font-size: 15px;
+				color:#001A66;
+		
+				
+			}
+			body{
+					background-image:url("Images/book_136_7.JPG");
+					background-size:100%;
+					
+		}
+			.glasslog input, .glasslog button {
+				  width: 212px;
+				  border: 2px solid;
+				  border-bottom-color: rgba(255,255,255,.5);
+				  border-right-color: rgba(60,60,60,.35);
+				  border-top-color: rgba(60,60,60,.35);
+				  border-left-color: rgba(80,80,80,.45);
+				  background-color: rgba(0,0,0,.2);
+				  padding: 8px 24px 8px 10px;
+				  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+				  letter-spacing: .075em;
+				  color: #fff;
+				  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+				  margin-bottom: 19px;
+				}
+
+				form input:focus { background-color: rgba(0,0,0,.4); }
+
+		.glasslog input.Username {
+
+				  background-position: 220px 10px;
+				}
+
+		.glasslog button[type=submit] {
+				  width: 200px;
+				  margin-bottom: 0;
+				  color: red;
+				  letter-spacing: .05em;
+				  text-shadow: 0 1px 0 #133d3e;
+				  text-transform: uppercase;
+				  border-top-color: #9fb5b5;
+				  border-left-color: #608586;
+				  border-bottom-color: #1b4849;
+				  border-right-color: #1e4d4e;
+				  cursor: pointer;
+				}
+				
+		</style>
+		
+	</head>
+	
+	<body>
+	<div class="header">
+	 			<img src="Images/stack_of_books_copy.png" width="200"> 
+	 		<a href="home.php">	
+	 			<img src="Images/imageedit_21_8261312846.gif" width="500"> 
+	 		</a>
+	</div>
+		
+		<div class="signin">
+			<div class="border">
+			
+			<form class="glasslog" value="Sign in" >
+				
+				  <label for=""></label><font color= "red">
+				  <input type="text"  placeholder="Username" class="Username" id="text1">
+					</font>
+				  <label for=""></label>
+				  <input type="password"  id="text2" placeholder="Password" class="pass"> 
+
+				  <input type="button" value="Sign in" onclick="javascript:validate()"/>
+					
+			</form>
+				
+				
+			</form>
+			</div>
+		</div>
+
+
+
+	</body>
+	
+</html>
